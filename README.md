@@ -1,8 +1,6 @@
 # DEV_WEBIOS_2025_01
-Hello world
 
-Ola mundo
-
-socorro world
-
-git alteração v2
+-Salário maior
+-Inicio em Design
+-Saúde
+-Felicidade
