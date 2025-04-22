@@ -9,78 +9,135 @@
 
 <body>
 
-    <form action="">
+    <h1>Fomulário teste </h1>
+    
+    <form action="./boasvindas.html" target="_blank">
 
 
-        <label for="">Nome</label>
-        <input type="text" name="" placeholder="Insira aqui">
+
+        <fieldset>
+            <legend>
+                <h3>Digite o seu nome:</h3>
+            </legend>
+            <label for=""></label>
+            <input type="text" name="" placeholder="Insira aqui" required>
+
+        </fieldset>
 
         <input type="button" value="Enviar">
 
         <br>
         <br>
 
-        <input type="radio" name="texto exemplo">
-        <label for="">São Paulo</label>
+        <fieldset>
+            <legend>
+                <h3>Selecione sua cidade:</h3>
+            </legend>
+            <br>
+            <input type="radio" name="texto exemplo">
+            <label for="">São Paulo</label>
+            <br>
 
-        <input type="radio" name="texto exemplo">
-        <label for="">Grande São Paulo</label>
+            <input type="radio" name="texto exemplo">
+            <label for="">Grande São Paulo</label>
+            <br>
 
-        <input type="radio" name="texto exemplo">
-        <label for="">Campinas</label>
+            <input type="radio" name="texto exemplo">
+            <label for="">Campinas</label>
 
-        <br>
-        <br>
+        </fieldset>
 
-        <input type="checkbox"><label for="">Pop</label>
-        <br>
-
-        <input type="checkbox"><label for="">Funk</label>
-        <br>
-
-        <input type="checkbox"><label for="">Metal</label>
-        <br>
-
-        <input type="checkbox"><label for="">Trap</label>
 
         <br>
         <br>
 
-        0KM<input type="range"> 100KM
+        <fieldset>
+            <legend>
+                <h3>Selecione seu estilo musical favorito:</h3>
+            </legend>
+            <input type="checkbox"><label for="">Pop</label>
+            <br>
+
+            <input type="checkbox"><label for="">Funk</label>
+            <br>
+
+            <input type="checkbox"><label for="">Metal</label>
+            <br>
+
+            <input type="checkbox"><label for="">Trap</label>
+
+        </fieldset>
 
         <br>
         <br>
 
-        <select name="" id="">
+        <fieldset>
+            <legend>
+                <h3> Insira a quilometragem que você utiliza: </h3>
+            </legend>
+            <br>
+            0KM<input type="range"> 100KM
 
-            <option value="">Amarelo</option>
-            <option value="">Branco</option>
-            <option value="">Vermelho</option>
+        </fieldset>
 
-        </select>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>
+                <h3>Selecione sua cor favorita:</h3>
+            </legend>
+            <select name="" id="">
+
+                <option value="">Amarelo</option>
+                <option value="">Branco</option>
+                <option value="">Vermelho</option>
+
+            </select>
+        </fieldset>
 
         <br>
         <br>
 
 
-     <input type="text" list="busca">   
-    <datalist id="busca">
+        <fieldset>
+            <legend>
+                <h3>Selecione novamente a sua cidade:</h3>
+            </legend>
 
-        <option value="Santos"></option>
-        <option value="Santo André"></option>
-        <option value="Santo Antonio"></option>
-        <option value="Campinas"></option>
-        
-    </datalist>
+            <input type="text" list="busca">
+            <datalist id="busca">
 
-    
+                <option value="Santos"></option>
+                <option value="Santo André"></option>
+                <option value="Santo Antonio"></option>
+                <option value="Campinas"></option>
+
+            </datalist>
+
+        </fieldset>
 
 
         <br>
+        <br>
 
 
+        <fieldset>
+            <legend>
+                <h3>No campo abaixo, deixe um comentário sobre o formulário:</h3>
+            </legend>
+
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Enviar">
+        <br>
 
     </form>
+
 
 </body>
 
