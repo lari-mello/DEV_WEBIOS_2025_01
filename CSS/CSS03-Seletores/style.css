@@ -1,0 +1,17 @@
+/* Para sinalizar que eu vou chamar um ID, o nome deve vir acompanhado de uma hashtag */
+
+#div1 {
+    background-color: aqua;
+    color: rgb(250, 250, 250);
+}
+
+#div2 {background-color: blueviolet;
+color: #ffffff;
+}
+
+/* Para sinalizar que eu vou chamar uma class o nome dev evir acompanhado no inicio pelo ponto final */
+/* Aplicar o mesmo estilo CSS para várias Tags diferentes */
+
+.estiloTitulo{
+    text-shadow: 5px 5px 5px yellow;
+}
