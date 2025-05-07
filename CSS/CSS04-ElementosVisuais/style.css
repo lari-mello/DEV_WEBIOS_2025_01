@@ -2,7 +2,17 @@
     /* Largura borda */
     border-width: 2px;
     /* Cor da borda */
-    border-color: blue;
+    border-color: rgb(5, 158, 18);
     /* Estilo da Borda */
     border-style: solid;
+}
+
+{
+    
+}
+
+body{
+    background-image:url("Cidade\ Pokemon.jpg") ; 
+    background-size: 100%;
+    background-attachment: fixed;
 }
