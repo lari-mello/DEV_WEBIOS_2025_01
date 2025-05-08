@@ -1,13 +1,17 @@
-body{font-family: roboto mono, monospace;
+body{
+    font-size: 1rem;
+    font-family: roboto mono, monospace;
     font-weight: 700;
     background-color: #b3e9f3;
-
-    background-image: url("squid-game-imagem-destacada.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
+    
 }
 
-title{
+h1{
     background-color: #6590d1;
-    text-shadow: 3px 3px #48789f;
+    text-shadow: 3px 3px 3px #48789f;
+}
+
+img{
+    width: 500px;
+    height: 300px;
 }

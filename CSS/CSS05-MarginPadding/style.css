@@ -2,12 +2,13 @@
     border: 1px solid red;
     padding: 10px;
     margin-bottom : 25px;
+    margin: 125px
 }
 
 
 #div2{
     border: 1px solid black;
-    padding: 50px;
+    padding: 100px;
 }
 
 
@@ -15,4 +16,5 @@
 img{
     width: 750px;
     height: 500px;
+
 }
