@@ -1,0 +1,10 @@
+.container{
+    border: 1px solid #bba3cd;
+}
+
+.Itens{
+    width: 35%;
+    height: 35%;
+    border: 1px solid #6e9f66;
+    font-size: 150%;
+}
