@@ -1,14 +1,43 @@
-.container{
-    border: 1px solid #bba3cd;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50px 50px '';
+body{
+    height: 600px;
+    border: 1px solid black;
+}
 
+.container{
+    height: 600px;
+    border: 1px solid #bba3cd;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    /* grid-template-columns: 25% 25% 25% 25%; */
+
+    grid-template-rows: repeat(2, 150px);
+    /* grid-template-rows: 50px 50px; */
+
+    column-gap: 10px;
+     /* columm gap: utilizo para inserir um espaço entre as colunas */
+
+    row-gap: 10px;
+    /* row gap: utilizo para inserir espaço entre linhas */
+
+    justify-items: center;
+    /* Justifica na horinzontal */
+
+    align-items: center;
+    /* Justifica na vertical */
+
+    justify-content: space-evenly;
+    /* mover o container na horizontal */
+
+    align-content: space-evenly;
+    /* mover o container na vertical */
+
+    
 }
 
 .Itens{
-    /* width: 35%;
-    height: 100px; */
+    width: 100%;
+    height: 100%;
     border: 1px solid #6e9f66;
     font-size: 150%;
 }
