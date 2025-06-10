@@ -67,3 +67,26 @@ console.log(temCamisa);
 console.log(temCracha);
 console.log(temCamisa == true && temCracha == true); 
 console.log(temCamisa == true || temCracha == true);
+
+
+var x = 3
+var y = 2
+x = x + y
+//x = y formato contraido
+// x = 3 + 2
+console.log(x);
+
+x = 720
+console.log(x);
+
+//console.log: para mostrar resultados e mensagens do sistema
+//console.clear: limpar o console e deixar o dispositivo disponivel para novas mensagens
+//console.error: apresenta uma mensagem de erro que eu queira comunicar, em vermelho
+//console.warn: apresenta uma mensagem de erro que eu queira comunicar, em amarelo
+console.clear(
+)
+
+console.log("Está tudo limpo");
+console.log("Olá mundo");
+console.error("Não use essa tela")
+console.warn("Não use essa tela (Em amarelo)")
